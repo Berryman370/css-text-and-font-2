@@ -7,10 +7,13 @@
 body{
     background-color: #201313;
     text-align: left;
-    padding-left: 300px;
-    padding-right: 300px;
 }
 
+main {
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
 .header {
     margin-top: 50px;
     color: #FAF9F9;
@@ -62,4 +65,35 @@ p {
     font-weight: 400px;
 
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    img {
+        width: 150px;
+        cursor: pointer;
+        margin-left: 40px;
+        margin-top: 20px;
+
+        
+     
+     }   
+     ul {
+        display: flex;
+        list-style: none;
+        
+        li {
+            padding: 0px 20px;
+            a {
+                color: #FAF9F9;
+                text-decoration: none;
+            }
+        }
+        
+        
+        
+     }
+    }
 
